@@ -48,7 +48,7 @@ def mostrar_treino(treinos):
 def remover_treino(treinos):
      if not treinos:
           print("Nenhum treino adicionado!")
-          return # "return serve para sair cedo da funcao, no caso desse, visto que nao tem treino para remover, apenas informa o mesmo"
+          return
      mostrar_treino(treinos)
      numero = int(input("Qual treino remover?"))
      indice = numero - 1
